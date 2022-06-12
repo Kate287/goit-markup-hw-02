@@ -81,8 +81,8 @@ body {
   background-color: var(--bg-main-color);
   font-weight: 500;
   line-height: 1.1;
+  font-size: 14px;
   letter-spacing: 0.02em;
-
 }
 
 .logo-header {
@@ -205,6 +205,11 @@ body {
   opacity: 0.6;
 }
 
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--akcent-color);
+}
+
 /* Portfolio */
 
 /* Filter */
@@ -237,7 +242,6 @@ body {
   background-color: var(--btn-akcent-color);
   color: var(--main-light-color);
 }
-
 
 /* Our works */
 
